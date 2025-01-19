@@ -1,18 +1,18 @@
 Create a website for Euro School using different HTML and CSS. At least, the website contains the following things: 
 
-    1. The Web page should have more than one page. 
+    1. The Web page should have more than one page.  ✅
 
-    2. The Web page should have a home page with the school's picture using CSS image properties. 
+    2. The Web page should have a home page with the school's picture using CSS image properties.  ✅
 
-    3. Web page should have different levels of headings as required using CSS font and text effects.
+    3. Web page should have different levels of headings as required using CSS font and text effects.  ✅
 
     4. The Web page should have scrolling effects as required.
 
-    5. The Web page should include different font sizes and colors using CSS font and text properties.
+    5. The Web page should include different font sizes and colors using CSS font and text properties.  ✅
 
-    6. The Web page should display yearly school's activities. (grid)
+    6. The Web page should display yearly school's activities.  ✅
 
-    7. The Web page should include links between pages
+    7. The Web page should include links between pages  ✅
 
 (20 marks)
 
