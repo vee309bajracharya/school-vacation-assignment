@@ -1,0 +1,133 @@
+/* Google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+:root{
+    /* colors */
+    --primary-color: #2466AF;
+    --secondary-color: #5D58EF;
+    --btn-hover-color: #21409A;
+    --light-color: #ffffff;
+    --dark-color: #000;
+
+    /* fonts */
+    --primary-font : "Bebas Neue", serif;
+    --secondary-font: "Montserrat", serif;
+    --curve-font : "Caveat", serif;
+}
+
+
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* home page starts  */
+
+/* header css starts */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 0 2rem;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.navLinks{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.navLinks a{
+    font-weight: 700;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    transition: .3s ease;
+}
+.navLinks a:hover{
+    color: var(--btn-hover-color);
+}
+/* header css ends */
+
+/* welcome section css starts */
+
+.welcome{
+    /* CSS image properties */
+    height: 40rem;
+    background-image: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 60%)),url(../images/medias/Program.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+.welcome-content{
+    color: var(--light-color);
+    text-align: center;
+    padding: 6rem 0;
+
+}
+.intro-title{
+    font-size: 8rem;
+    font-family: var(--primary-font);
+    letter-spacing: .3rem;
+    text-shadow: 2px 1px 1px var(--dark-color);
+}
+.slogan{
+    font-family: var(--curve-font);
+    font-size: 2.5rem;
+}
+.intro-text{
+    margin-top: 1.9rem;
+    font-size: 1.8rem;
+    font-family: var(--secondary-font);
+}
+
+/* welcome section css ends */
+/* ------------------------------- */
+
+/* footer css starts */
+.footer-contents{
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+.contact-details{
+    font-family: var(--secondary-font);
+    margin-bottom: 2rem;
+}
+.contact-details h4{
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.contact-details p{
+    margin: 1.3rem;
+    font-weight: 500;
+}
+
+.logo-footer{
+    width:200px;
+}
+
+
+.social-logo{
+    width:50px;
+    height:50px;
+}
+
+
+
+
+/* footer css ends */
