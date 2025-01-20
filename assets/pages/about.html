@@ -8,6 +8,9 @@
   <!-- CSS Link file -->
    <link rel="stylesheet" href="../css/style.css">
 
+     <!-- AOS library CSS link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -49,7 +52,7 @@
             <h1 class="heading-intro">About <br> <span>Euro School</span></h1>
 
         <!-- about intro image -->
-         <section class="flex-container">
+         <section class="flex-container" data-aos="fade-up" data-aos-duration="4000">
 
             <div class="content-left">
                 <img
@@ -156,5 +159,11 @@
 
   </section>
 
+    <!-- AOS JS link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

@@ -8,6 +8,9 @@
   <!-- CSS Link file -->
    <link rel="stylesheet" href="../css/style.css">
 
+  <!-- AOS library CSS link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -44,7 +47,7 @@
 
       <!-- Welcome section starts -->
        <section class="welcome">
-          <div class="welcome-content">
+          <div class="welcome-content" data-aos="zoom-in" data-aos-duration="1000">
               <h1 class="intro-title">Euro School</h1>
               <p class="slogan">Learning Unlike Any Other</p>
               <p class="intro-text">Welcome to Euro School, a balanced modern school dedicated to <br>
@@ -54,6 +57,50 @@
       <!-- Welcome section ends -->
 
       <!-- ============================================ -->
+
+      <!-- school features section starts -->
+       <section class="feature-container">
+
+        <h2 class="heading-intro">Why Choose<br> <span>Euro School ?</span></h2>
+        <p>Our dedicated team of educators is highly trained and experienced <br> in early childhood education, ensuring the best care and learning environment for your child.</p>
+
+        <section class="feature-flex" data-aos="zoom-in-up" data-aos-duration="4000">
+
+            <div class="feature-left">
+
+              <div class="widget-container">
+                <img src="../images/svg/teacher.svg" alt="" class="widget-icon">
+                <h3 class="widget-title">Special Trained IB Teacher</h3>
+              </div>
+
+              <div class="widget-container">
+                <img src="../images/svg/building.svg" alt="" class="widget-icon">
+                <h3 class="widget-title">Well built spacious Infra-Structure</h3>
+              </div>
+
+              <div class="widget-container">
+                <img src="../images/svg/books.svg" alt="" class="widget-icon">
+                <h3 class="widget-title">IB Curriculum (International Baccalaureate ) Framework</h3>
+              </div>
+
+              <div class="widget-container">
+                <img src="../images/svg/kit.svg" alt="" class="widget-icon">
+                <h3 class="widget-title">Safety</h3>
+              </div>
+
+            </div>
+
+
+            <div class="feature-right">
+              <img src="../images/medias/home/feature.jpg" alt="Feature-image" id="feature-img">
+            </div>
+
+        </section>
+
+
+       </section>
+
+      <!-- school features section ends -->
 
 
       <!-- Footer section starts -->
@@ -110,6 +157,12 @@
 
   <!-- Home page ends -->
 
+  <!-- AOS JS link -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
   
 </body>
 </html>

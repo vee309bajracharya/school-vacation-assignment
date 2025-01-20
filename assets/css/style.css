@@ -97,6 +97,96 @@
 /* welcome section css ends */
 /* ------------------------------- */
 
+/* school features section starts */
+
+.feature-container{
+    padding: 0 4rem;
+}
+
+
+.feature-flex{
+    margin: 5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.feature-right{
+    width: 100%;
+}
+
+#feature-img{
+    width: 45rem;
+    object-fit: fill;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+
+.feature-container p{
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.feature-left{
+    width: 100%;
+    font-family: var(--secondary-font);
+    font-size: 1.2rem;
+    margin: 1.8rem 0;
+}
+
+.widget-container {
+    margin: 1.4rem 0;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    background-color: var(--light-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 25px;
+    padding: 1rem 1.3rem;
+    font-size: 1rem;
+    position: relative; /* Required for pseudo-element positioning */
+    overflow: hidden; /* Ensures the sliding background stays inside the container */
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  
+  .widget-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%; /* Start off-screen */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 123, 255, 0.2);
+    z-index: -1; /* Place it behind the content */
+    transition: all 0.5s ease; /* Smooth slide effect */
+  }
+  
+  .widget-container:hover::before {
+    left: 0; /* Slide in to fully cover the container */
+  }
+  
+  .widget-icon {
+    width: 60px;
+    height: 60px;
+    z-index: 1; /* Ensures the icon stays above the background */
+  }
+  
+  .widget-title {
+    font-size: 1rem;
+    z-index: 1; /* Ensures the title stays above the background */
+  }
+
+
+/* school features section ends */
+
+
+
 /* footer css starts */
 .footer-contents{
     text-align: center;
@@ -273,16 +363,5 @@
 .grid-img:hover{
     transform: translateY(-1rem);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* activities page ends */
